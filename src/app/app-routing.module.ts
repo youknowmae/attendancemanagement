@@ -2,9 +2,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { MainComponent } from './main/main.component';
+import { LoginComponent } from './components/login/login.component';
+
 
 const routes: Routes = [
-  { path: '', redirectTo: 'main', pathMatch: 'full' },
+  { path: '', redirectTo: 'login', pathMatch: 'full' },
+  { path: 'login', component: LoginComponent },
   { 
     path: 'main', 
     component: MainComponent,
@@ -13,9 +16,6 @@ const routes: Routes = [
       loadChildren: ()=>import('./main/main.module').then((m)=>m.MainModule)
     }]
   },
-  { path: 'schedule', loadChildren: () => import('./main/components/schedule/schedule.module').then(m => m.ScheduleModule) },
-  { path: 'attendance', loadChildren: () => import('./main/components/attendance/attendance.module').then(m => m.AttendanceModule) },
-  { path: 'summary', loadChildren: () => import('./main/components/summary/summary.module').then(m => m.SummaryModule) },
  
 ];
 
