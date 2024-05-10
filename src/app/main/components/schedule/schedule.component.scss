@@ -1,0 +1,85 @@
+.container{
+    margin-left: 20px;
+}
+.header{
+    line-height: 5px;
+    margin-top: 40px;
+}
+.header h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.body{
+    margin-top: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-bottom: 2px solid #575757;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+
+}
+
+th, td {
+    padding: 13px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #575757;
+    font-weight: bold;
+    height: 40px;
+    color: #FFFDFD;
+}
+
+
+.container-addUserButton{
+   
+    border:2px solid #575757;
+    color: #575757;
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+    float: right;
+    margin-top: 5px;
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+    
+
+}
+.container-addUserButton:hover{
+    background-color:#575757;
+    color: #FFFDFD;
+}
+
+
+.edit-btn {
+    padding: 5px 17px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #31A463;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.archive-btn{
+
+    padding: 5px 17px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #AB0E0E;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.edit-btn:hover {
+    background-color: #298f55;
+}
