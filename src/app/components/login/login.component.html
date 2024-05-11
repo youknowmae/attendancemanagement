@@ -1,7 +1,45 @@
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/boxicons/2.0.7/css/boxicons.min.css">
+
 <body>
     <div class="logo">
-        <img src="assets/techkineme.png" class="logo-header">
+        <img src="assets/images/techkineme.png" class="logo-header">
+        <img src="assets/images/loginbg.png" class="loginbg" style="width: 655px; height: 918px;">
         <h1>ATTENDANCE MANAGEMENT SYSTEM</h1>
     </div>
-    
+
+    <div class="login-container">
+        <form action="">
+            <section class="">
+                <div class="form-user">
+                    <label for="user">
+                        <input type="email" name="" id="" class="input" placeholder="Username">
+                        <div class="icon"> 
+                            <i class='bx bxs-user'></i> 
+                        </div>
+                    </label>
+                </div>  
+        
+                <div class="form-pass">
+                    <label for="pass">
+                      <input [type]="changetype? 'password' : 'text'" class="input" placeholder="Password">
+                      <div class="icon2">
+                        <span (click)="viewpass()">
+                          <i [ngClass]="visible? 'bx bxs-lock-alt' : 'bx bxs-lock-open-alt'"></i>
+                        </span>
+                      </div>
+                    </label>
+                </div>                  
+                  
+        
+                <div class="loginbtn">
+                  <!-- <a class="loginbtn" type="submit">Login</a> -->
+                  <a class="login-btn" routerLink="/main">LOGIN</a>
+                </div>
+            </section>
+        </form>
+    </div>
 </body>
+
+
+    
