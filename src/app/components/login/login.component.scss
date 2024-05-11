@@ -98,3 +98,64 @@ body {
     cursor: pointer;
     text-decoration: none;
 }
+/* Original styles here */
+
+@media screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .logo img {
+        width: 80%; /* Adjust as needed */
+    }
+    
+    .loginbg {
+        display: none;
+    }
+
+    .input {
+        width: 50%; /* Adjust as needed */
+        left: 17%; /* Adjust as needed */
+    }
+
+    .icon2 {
+        margin-left: -123px;/* Adjust as needed */
+    }
+
+    .icon {
+        margin-left: -115px;
+    }
+
+    .login-btn {
+        width: 50%; /* Adjust as needed */
+        padding: 0.5rem 1rem; /* Adjust as needed */
+        margin-left: -35px; /* Adjust as needed */
+    }
+}
+@media screen and (max-width: 550px) {
+    /* Adjustments for smaller screens */
+    .logo img {
+        width: 80%; /* Adjust as needed */
+    }
+    
+    .loginbg {
+        display: none;
+    }
+
+    .input {
+        width: 50%; /* Adjust as needed */
+        left: 13%; /* Adjust as needed */
+    }
+
+    .icon2 {
+        margin-left: -95px;/* Adjust as needed */
+    }
+
+    .icon {
+        margin-left: -85px;
+    }
+
+    .login-btn {
+        width: 50%; /* Adjust as needed */
+        padding: 0.5rem 1rem; /* Adjust as needed */
+        margin-left: -35px; /* Adjust as needed */
+    }
+}
+
