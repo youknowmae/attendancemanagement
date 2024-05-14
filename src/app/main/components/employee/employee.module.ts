@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { EmployeeRoutingModule } from './employee-routing.module';
 import { AdduserComponent } from './adduser/adduser.component';
 import { EdituserComponent } from './edituser/edituser.component';
+import { ArchiveComponent } from './archive/archive.component';
 
 
 
@@ -12,7 +13,8 @@ import { EdituserComponent } from './edituser/edituser.component';
 
   
     AdduserComponent,
-          EdituserComponent
+          EdituserComponent,
+          ArchiveComponent
   ],
   imports: [
     CommonModule,

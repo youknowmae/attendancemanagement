@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { ScheduleRoutingModule } from './schedule-routing.module';
 import { AddschedComponent } from './addsched/addsched.component';
 import { EditschedComponent } from './editsched/editsched.component';
+import { ArchiveschedComponent } from './archivesched/archivesched.component';
 
 
 
@@ -12,7 +13,8 @@ import { EditschedComponent } from './editsched/editsched.component';
 
   
     AddschedComponent,
-         EditschedComponent
+         EditschedComponent,
+         ArchiveschedComponent
   ],
   imports: [
     CommonModule,

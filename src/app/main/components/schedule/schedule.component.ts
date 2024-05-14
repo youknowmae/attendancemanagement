@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
 import { AddschedComponent } from './addsched/addsched.component';
 import { EditschedComponent } from './editsched/editsched.component';
+import { ArchiveschedComponent } from './archivesched/archivesched.component';
 
 @Component({
   selector: 'app-schedule',
@@ -18,7 +19,7 @@ export class ScheduleComponent implements OnInit {
     this.dialogRef.open(AddschedComponent, {});
   }
 onArchiveBtnClick() {
-throw new Error('Method not implemented.');
+  this.dialogRef.open(ArchiveschedComponent, {});
 }
 onEditBtnClick() {
   this.dialogRef.open(EditschedComponent, {});
