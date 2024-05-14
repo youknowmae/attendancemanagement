@@ -73,15 +73,15 @@
             </ul>
 
             <!-- LOGOUT BUTTON -->
-            <!-- <div class="logoutbtn">
+            <div class="logoutbtn">
                 <div class="logout" (click)="togglePopup()" >
                     <span> <i class='fa-solid fa-right-from-bracket' ></i> 
-                        <app-logout-popup *ngIf="showPopup" (closedPopup)="closePopup()" (leaveClicked)="redirectToLoginPage()"></app-logout-popup>
+                        <app-logout *ngIf="showPopup" (closedPopup)="closePopup()" (leaveClicked)="redirectToLoginPage()"></app-logout>
                     </span>
     
         
                 </div>
-                </div> -->
+                </div>
         </div>
     </nav>
    
