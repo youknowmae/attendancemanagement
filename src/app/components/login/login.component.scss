@@ -22,6 +22,7 @@ body {
     position: absolute;
     right: 0;
     top: -155px;
+    z-index: -1;
 }
 .form-user, .form-pass {
     position: relative;
