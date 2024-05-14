@@ -10,7 +10,7 @@ export class PdfServiceService {
 
   constructor() { }
 
-  generatePDF() {
+  public generatePDF(elementId: string): void {
     const element = document.getElementById('pdfContent');
 
     if (element) {
