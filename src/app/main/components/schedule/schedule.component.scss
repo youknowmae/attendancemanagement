@@ -38,25 +38,27 @@ th {
 
 .container-addUserButton{
    
-    border:2px solid #575757;
-    color: #575757;
-    border-radius: 5px;
-    padding: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
-    font-weight: bold;
-    margin: 20px 0 10px 0;
-    float: right;
-    margin-top: 5px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 8px;
+    height: 34px;
+    width: 150px;
+    border: none;
+    border: 2px solid #575757;
     background-color: transparent;
+    border-radius: 20px;
+    color: #575757;
     cursor: pointer;
+    float: right;
+    margin-bottom: 10px;
     
 
 }
 .container-addUserButton:hover{
-    background-color:#575757;
-    color: #FFFDFD;
+    background-color: #575757;
+    color: white;
 }
 
 

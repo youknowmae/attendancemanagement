@@ -5,77 +5,120 @@
     </div>
     <div class="body">
         <div class="buttonheader">
-            <button class="container-addUserButton" type="button" >Generate PDF</button>
+       
+           
         </div>
     <div class="table">
-        <table>
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>On Time</th>
-                    <th>Late</th>
-                    <th>Over Time</th>
-                    <th>Leave</th>
-                    <th>Absent</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1001</td>
-                    <td class="ontime"> <input type="checkbox" id="ontime" name="ontime" value="ontime">
-                        <label for="ontime"></label></td>
-                    <td class="late"> <input  type="checkbox" id="late" name="late" value="late">
-                            <label for="late"></label></td>
-                    <td class="ot"> <input  type="checkbox" id="ot" name="ot" value="ot">
-                            <label for="ot"></label></td>
-                    <td class="leave"> <input  type="checkbox" id="leave" name="leave" value="leave">
-                            <label for="leave"></label></td>  
-                    <td class="abs"> <input  type="checkbox" id="abs" name="abs" value="abs">
-                            <label for="abs"></label></td>       
-                    
-                </tr>
-                <tr>
-                    <td>1002</td>
-                    <td class="ontime"> <input type="checkbox" id="ontime1" name="ontime1" value="ontime1">
-                        <label for="ontime1"></label></td>
-                    <td class="late"> <input  type="checkbox" id="late1" name="late1" value="late1">
-                            <label for="late1"></label></td>
-                    <td class="ot"> <input  type="checkbox" id="ot1" name="ot1" value="ot1">
-                            <label for="ot1"></label></td>
-                    <td class="leave"> <input  type="checkbox" id="leave1" name="leave1" value="leave1">
-                            <label for="leave1"></label></td>       
-                    <td class="abs"> <input  type="checkbox" id="abs1" name="abs1" value="abs1">
-                            <label for="abs1"></label></td>      
-                   
-                </tr>
-                <tr>
-                    <td>1003</td>
-                    <td class="ontime"> <input type="checkbox" id="ontime2" name="ontime2" value="ontime2">
-                        <label for="ontime2"></label></td>
-                    <td class="late"> <input  type="checkbox" id="late2" name="late2" value="late2">
-                            <label for="late2"></label></td>
-                    <td class="ot"> <input  type="checkbox" id="ot2" name="ot2" value="ot2">
-                            <label for="ot2"></label></td>
-                    <td class="leave"> <input  type="checkbox" id="leave2" name="leave2" value="leave2">
-                            <label for="leave2"></label></td> 
-                    <td class="abs"> <input  type="checkbox" id="abs2" name="abs2" value="abs2">
-                            <label for="abs2"></label></td>  
-                </tr>
-                <tr>
-                    <td>1004</td>
-                    <td class="ontime"> <input type="checkbox" id="ontime3" name="ontime3" value="ontime3">
-                        <label for="ontime3"></label></td>
-                    <td class="late"> <input  type="checkbox" id="late3" name="late3" value="late3">
-                            <label for="late3"></label></td>
-                    <td class="ot"> <input  type="checkbox" id="ot3" name="ot3" value="ot3">
-                            <label for="ot3"></label></td>
-                    <td class="leave"> <input  type="checkbox" id="leave3" name="leave3" value="leave3">
-                            <label for="leave3"></label></td> 
-                    <td class="abs"> <input  type="checkbox" id="abs3" name="abs3" value="abs3">
-                            <label for="abs3"></label></td>  
-                </tr>
-            </tbody>
-        </table>
+        <form>
+            <button type="reset" class="reset-button">Reset</button>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>On Time</th>
+                        <th>Late</th>
+                        <th>Over Time</th>
+                        <th>Leave</th>
+                        <th>Absent</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1001</td>
+                        <td class="ontime">
+                            <input type="checkbox" id="ontime" name="ontime" value="ontime">
+                            <label for="ontime"></label>
+                        </td>
+                        <td class="late">
+                            <input type="checkbox" id="late" name="late" value="late">
+                            <label for="late"></label>
+                        </td>
+                        <td class="ot">
+                            <input type="checkbox" id="ot" name="ot" value="ot">
+                            <label for="ot"></label>
+                        </td>
+                        <td class="leave">
+                            <input type="checkbox" id="leave" name="leave" value="leave">
+                            <label for="leave"></label>
+                        </td>
+                        <td class="abs">
+                            <input type="checkbox" id="abs" name="abs" value="abs">
+                            <label for="abs"></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1002</td>
+                        <td class="ontime">
+                            <input type="checkbox" id="ontime1" name="ontime1" value="ontime1">
+                            <label for="ontime1"></label>
+                        </td>
+                        <td class="late">
+                            <input type="checkbox" id="late1" name="late1" value="late1">
+                            <label for="late1"></label>
+                        </td>
+                        <td class="ot">
+                            <input type="checkbox" id="ot1" name="ot1" value="ot1">
+                            <label for="ot1"></label>
+                        </td>
+                        <td class="leave">
+                            <input type="checkbox" id="leave1" name="leave1" value="leave1">
+                            <label for="leave1"></label>
+                        </td>
+                        <td class="abs">
+                            <input type="checkbox" id="abs1" name="abs1" value="abs1">
+                            <label for="abs1"></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1003</td>
+                        <td class="ontime">
+                            <input type="checkbox" id="ontime2" name="ontime2" value="ontime2">
+                            <label for="ontime2"></label>
+                        </td>
+                        <td class="late">
+                            <input type="checkbox" id="late2" name="late2" value="late2">
+                            <label for="late2"></label>
+                        </td>
+                        <td class="ot">
+                            <input type="checkbox" id="ot2" name="ot2" value="ot2">
+                            <label for="ot2"></label>
+                        </td>
+                        <td class="leave">
+                            <input type="checkbox" id="leave2" name="leave2" value="leave2">
+                            <label for="leave2"></label>
+                        </td>
+                        <td class="abs">
+                            <input type="checkbox" id="abs2" name="abs2" value="abs2">
+                            <label for="abs2"></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1004</td>
+                        <td class="ontime">
+                            <input type="checkbox" id="ontime3" name="ontime3" value="ontime3">
+                            <label for="ontime3"></label>
+                        </td>
+                        <td class="late">
+                            <input type="checkbox" id="late3" name="late3" value="late3">
+                            <label for="late3"></label>
+                        </td>
+                        <td class="ot">
+                            <input type="checkbox" id="ot3" name="ot3" value="ot3">
+                            <label for="ot3"></label>
+                        </td>
+                        <td class="leave">
+                            <input type="checkbox" id="leave3" name="leave3" value="leave3">
+                            <label for="leave3"></label>
+                        </td>
+                        <td class="abs">
+                            <input type="checkbox" id="abs3" name="abs3" value="abs3">
+                            <label for="abs3"></label>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </form>
     </div>
 </div>
 </div>

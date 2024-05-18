@@ -254,3 +254,33 @@ th {
     color:#fff;
 
 }
+
+
+
+// reset
+
+.reset-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 8px;
+    height: 34px;
+    width: 112px;
+    border: none;
+    border: 2px solid #575757;
+    background-color: transparent;
+    border-radius: 20px;
+    color: #575757;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 10px;
+  }
+
+
+  
+  .reset-button:hover {
+    background-color: #575757;
+    color: white;
+  }
+

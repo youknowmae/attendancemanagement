@@ -42,10 +42,10 @@ body {
     padding-bottom: 14%;
     border-bottom: 1px solid var(--border-color);
 }
-.logo h1{
+.logo img{
     color: #CBC5C5;
-    font-size: 30px;
-    margin-top: 0;
+    height: 60px;
+    margin-right: 10px;
 
 }
 
@@ -58,7 +58,7 @@ body {
     top: 0;
     left: 0;
     height: 100%;
-    padding: 30px 15px;
+    padding: 10px 0 30px 20px;
     z-index: 100;
     border-right: 2px solid var(--border-color);
     transition: all 0.3s ease;
@@ -80,13 +80,15 @@ body {
 .admin-tabs {
     padding: 0;
     list-style: none;
+    margin-right: 0;
 }
+
 
 .admin-tab a {
     display: flex;
     font-weight: 300;
     font-size: 14px;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 20px;
     text-decoration: none;
     margin-bottom: 3px;
     margin-top: 5px;
@@ -96,11 +98,33 @@ body {
 .admin-tab a:hover {
     font-weight: bolder;
     color: #FFFFFF;
+    background-color: #222222 ;
+    animation: scaleUp 0.3s ease-in-out;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    
 }
+
+@keyframes scaleUp {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(0.95);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
 
 .admin-tab a.active-link {
     font-weight: bolder;
     color: #FFFFFF;
+    background-color: #222222 ;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .tab-link .tab-link-name {
