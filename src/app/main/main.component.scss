@@ -99,25 +99,27 @@ body {
     font-weight: bolder;
     color: #FFFFFF;
     background-color: #222222 ;
-    animation: scaleUp 0.3s ease-in-out;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    transform: translate(1rem, 0);
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
-    
+    box-shadow: 0 8px 8px rgba(0,0,0,0.5);
+    width:132px;
 }
 
-@keyframes scaleUp {
-    0% {
-      transform: scale(1);
-    }
+// @keyframes scaleUp {
+//     0% {
+//       transform: scale(1);
+//     }
   
-    50% {
-      transform: scale(0.95);
-    }
+//     50% {
+//       transform: scale(0.95);
+//     }
   
-    100% {
-      transform: scale(1);
-    }
-  }
+//     100% {
+//       transform: scale(1);
+//     }
+//   }
 
 .admin-tab a.active-link {
     font-weight: bolder;
@@ -125,6 +127,7 @@ body {
     background-color: #222222 ;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
+    box-shadow: 0 8px 8px rgba(0,0,0,0.5);
 }
 
 .tab-link .tab-link-name {
